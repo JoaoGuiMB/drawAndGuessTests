@@ -126,14 +126,6 @@ describe("start turn", () => {
 
     expect(room.players[0].playerGuessedRight).toBe(false);
   });
-
-  // it("should check if current player still in room", () => {
-  //   pushRoom(mockRoom);
-  //   const room = addPlayerToRoom(mockRoom.name, mockPlayer);
-  //   startNewTurn(mockRoom.name);
-  //   const player = isCurrentPlayerStillInRoom(room);
-  //   expect(() => player?.nickName).toBe(mockPlayer.nickName);
-  // });
 });
 
 describe("player draw", () => {
