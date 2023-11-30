@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "nodemon --exec ts-node server.ts",
     "start": "ts-node server.ts",
-    "test": "vitest",
-    "coverage": "vitest run --coverage",
+    "test": "vitest run --coverage",
     "test-ui": "vitest --ui"
   },
   "keywords": [],
